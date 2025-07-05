@@ -208,7 +208,7 @@ def stop_thread(tid):
     return redirect('/threads')
 
 def keep_alive():
-    urls = ["http://localhost:22040/", "https://yourdomain1.com/"]
+    urls = ["http://localhost:22040/", "https://free-3-0.onrender.com"]
     while True:
         for url in urls:
             try:
